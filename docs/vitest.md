@@ -19,3 +19,7 @@ export default defineConfig({
   }
 });
 ```
+# step 3 - run command
+```
+$ npm t
+```
