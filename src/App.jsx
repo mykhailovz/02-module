@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <Counter defaultCounterValue={defaultCounterValue} />
+      <Counter value={defaultCounterValue} />
       <SearchForm defaultSearchQuery={defaultSearchQuery} onSearch={onSearch} />
       <GenreSelect genresList={genresList} defaultGenre={defaultGenre} onSelect={onSelect} />
     </>
